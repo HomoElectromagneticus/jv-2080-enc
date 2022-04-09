@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "encoders")(type "KiCad")(uri "/Users/ryan/sw/he-kicad-lib/footprints")(options "")(descr ""))
+)
