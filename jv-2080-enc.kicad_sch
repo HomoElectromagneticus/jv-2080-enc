@@ -6,7 +6,7 @@
 
   (title_block
     (title "REPLACEMENT ENC. BOARD FOR ROLAND 70896167")
-    (date "2022-05-25")
+    (date "2022-06-12")
     (rev "1")
     (company "Homo Electromagneticus")
   )
@@ -1031,7 +1031,7 @@
     (property "Manuf" "Bourns" (id 4) (at 210.82 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Manuf PN" "PEC11R-4230F-S0024" (id 5) (at 210.82 95.25 0)
+    (property "Manuf PN" "PEC11R-4225F-S0024" (id 5) (at 210.82 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid b48d8cf3-be19-44d4-a50c-04cee6766604))

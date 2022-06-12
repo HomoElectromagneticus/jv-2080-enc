@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/ryan/sw/kicad_projects/jv-2080-enc/jv-2080-enc.kicad_sch</source>
+    <date>Saturday, June 11, 2022 at 05:53:49 PM</date>
+    <tool>Eeschema (6.0.5-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>REPLACEMENT ENC. BOARD FOR ROLAND 70896167</title>
+        <company>Homo Electromagneticus</company>
+        <rev>1</rev>
+        <date>2022-05-25</date>
+        <source>jv-2080-enc.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>https://www.nichicon.co.jp/english/products/pdfs/e-uvy.pdf</datasheet>
+      <fields>
+        <field name="Manuf">Nichicon</field>
+        <field name="Manuf PN">UVY1E101MDD</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Manuf" value="Nichicon"/>
+      <property name="Manuf PN" value="UVY1E101MDD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55cbface-ebaa-4c3e-ac09-730562c682a9</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_F3101_R82.pdf</datasheet>
+      <fields>
+        <field name="Manuf">Kemet</field>
+        <field name="Manuf PN">R82EC1470AA50K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manuf" value="Kemet"/>
+      <property name="Manuf PN" value="R82EC1470AA50K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2992b3d-a4ba-4d31-be04-c733252852fa</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_F3101_R82.pdf</datasheet>
+      <fields>
+        <field name="Manuf">Kemet</field>
+        <field name="Manuf PN">R82EC1470AA50K</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manuf" value="Kemet"/>
+      <property name="Manuf PN" value="R82EC1470AA50K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>639a2352-75a4-42a4-a513-d12a91ba9ae5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>encoders:Molex_51048-0400</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/510480400_sd.pdf</datasheet>
+      <fields>
+        <field name="Manuf">Molex</field>
+        <field name="Manuf PN">51048-0400</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manuf" value="Molex"/>
+      <property name="Manuf PN" value="51048-0400"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fd054e3-d9b6-4831-ae4f-91c44548f2a9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb36feef-fdc7-414b-b262-9eff8035e487</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aadb7e68-94a8-42a9-8b16-8ff3f927a272</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0904ac1a-aa6b-4164-8e23-8c17b0562eae</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RotaryEncoder_Switch</value>
+      <footprint>encoders:Rotary_Encoder_Switched_PEC11R</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/54/PEC11R-777457.pdf</datasheet>
+      <fields>
+        <field name="Manuf">Bourns</field>
+        <field name="Manuf PN">PEC11R-4230F-S0024</field>
+      </fields>
+      <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Manuf" value="Bourns"/>
+      <property name="Manuf PN" value="PEC11R-4230F-S0024"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbcd0d64-a8b4-4e90-93e0-a9eb5a170c87</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny13A-P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf</datasheet>
+      <fields>
+        <field name="Manuf">Microchip Technology</field>
+        <field name="Manuf PN">ATTINY13A-PU</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny13A-P" description="20MHz, 1kB Flash, 64B SRAM, 64B EEPROM, debugWIRE, DIP-8"/>
+      <property name="Manuf" value="Microchip Technology"/>
+      <property name="Manuf PN" value="ATTINY13A-PU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jv-2080-enc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4022b51-0570-4266-92ff-ff9100c84f7e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="RotaryEncoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">RotaryEncoder_Switch</field>
+        <field name="Footprint">encoders:Rotary_Encoder_Switched_PEC11R</field>
+        <field name="Datasheet">~</field>
+        <field name="Manuf">Bourns</field>
+        <field name="Manuf PN"> PEC11R-4230F-S0024</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="passive"/>
+        <pin num="2" name="S2" type="passive"/>
+        <pin num="3" name="Chassis" type="passive"/>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny13A-P">
+      <description>20MHz, 1kB Flash, 64B SRAM, 64B EEPROM, debugWIRE, DIP-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">ATtiny13A-P</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/doc8126.pdf</field>
+        <field name="Manuf">Microchip Technology</field>
+        <field name="Manuf PN">ATTINY13A-PU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}/PB5" type="bidirectional"/>
+        <pin num="2" name="PB3" type="bidirectional"/>
+        <pin num="3" name="PB4" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0" type="bidirectional"/>
+        <pin num="6" name="PB1" type="bidirectional"/>
+        <pin num="7" name="PB2" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ENC_A_IN">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/ENC_A_OUT">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/ENC_B_IN">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/ENC_B_OUT">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/SWITCH">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="6" name="/SWITCH_IN">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="S2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="Chassis" pintype="passive"/>
+      <node ref="SW1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="~{RESET}/PB5" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
